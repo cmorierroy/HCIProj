@@ -1,0 +1,163 @@
+#title {
+    width: 100%; /* Title div spans the width of the screen */
+    background: rgb(44, 44, 44); 
+    color: rgb(134, 102, 153);
+}
+
+.navbar{
+    border-radius: 0; /* Remove the navbar's default rounded borders*/
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: rgb(44, 44, 44);
+    color: rgb(134, 102, 153);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url('../images/winnipeg.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-card-expand {
+    text-align: right;
+}
+
+img {
+    width: 100%;
+}
+
+.col-card-image {
+    text-align: right;
+}
+
+select {
+    width: 100%;
+}
+
+.panel-title {
+    text-align: center;
+    height: 70px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(134, 102, 153);
+}
+
+.panel-filters {
+    text-align: center;
+    height: 70px;
+    background-color: rgb(44, 44, 44);
+}
+
+.row-filters {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+#shareModal {
+    text-align: center;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    font-size: 11px;
+    background-color: rgb(156, 139, 167);
+}
+
+.panel-body {
+    height: 180px;
+}
+
+a {
+     color: rgb(134, 102, 153);
+}
+
+h1,h2,h3,h4 {
+    color: rgb(134, 102, 153);
+}
+
+#homeTitle {
+    color: rgb(134, 102, 153);
+}
+
+.panel-home {
+    background-color: rgb(44, 44, 44);
+    width: 50%;
+}
+
+.home-row {
+    margin-bottom: 20px;
+}
+
+.map{
+    width: 505px;
+    height: 456px;
+    background: url("../images/map.png") left top no-repeat;
+    position:relative;
+}
+
+.map .overlay{
+    width: 505px;
+    height: 456px;
+    background: url("../images/map.png") 505px top no-repeat;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.map img{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+
+#searchInput {
+    width: 50%;
+}
+
+.panel-about {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.img-about {
+    width:60%;
+    height:280px;
+}
+
+.panel-contact {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 75%;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.panel-empty {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+
